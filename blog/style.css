@@ -421,77 +421,180 @@ td,
 th {
   padding: 0;
 }
-/*style sheet for superblog*/
+
+/* STYLE SHEET FOR SUPERBLOG*/
+
+/* RULES */
+footer {
+  width: 775px;
+  float: left;
+  padding-bottom: 15px;
+}
+
+hr {
+  width: 775px;
+  height: 1px;
+  background: black;
+}
+
+div.container {
+	float: left;
+	width: 775px;
+	margin-left: 20px;
+}
 
 /* FONTS */
 @font-face {
     font-family: LeagueGothic;
     src: url('type/LeagueGothic-CondensedRegular.otf') format('opentype');
 }
+
 @font-face {
     font-family: LeagueGothicItalic;
     src: url('type/LeagueGothic-Italic.otf') format('opentype');
 }
+
 @font-face {
   font-family: LeagueGothicItalicCon;
-    src: url('type/LeagueGothic-CondensedItalic.otf') format('opentype');}
+    src: url('type/LeagueGothic-CondensedItalic.otf') format('opentype');
+}
 
-/* HEADER */
+@font-face {
+  font-family: LeagueGothicRegular;
+    src: url('type/LeagueGothic-Regular.otf') format('opentype');
+}
 
-h1 {
-	font-family: LeagueGothic, sans-serif;
-    font-weight: normal;
-	font-size: 5.5em;
-}
-h2 {
-	font-family: LeagueGothic, sans-serif;
-	font-size: 2.25em;
-	font-weight: normal;
-}
-h4 {
-	font-weight: bold;
-	font-family: arial, sans-serif;
-	font-size: 0.6em;
-	text-transform: uppercase;
-}
-p {
-	font-weight: normal;
-	font-family: arial, sans-serif;
-	font-size: 0.9em;
-	
-}
+/* A */
 a {
 	font-weight: bold;
 	font-family: arial, sans-serif;
 	font-color: black;
 	text-decoration: none;
 	font-size: 0.9em;
-	
 }
 
-a:link {color:#000;}    /* unvisited link */
-a:visited {color:#000;} /* visited link */
-a:hover {color:#000;}   /* mouse over link */
-a:active {color:#000;}  /* selected link */
+a:link {
+	color:#000;
+}
+a:visited {
+	color:#000;
+}
+a:hover {
+	color:#000;
+}
+a:active {
+	color:#000;
+} 
+
+/* HEADER */
+h1 {
+	font-family: LeagueGothicRegular, sans-serif;
+    font-weight: normal;
+	font-size: 4.6em;
+	margin-top: -4px;
+	margin-bottom: -50px;
+	border-bottom: 1.5px solid #000;
+}
 
 ul.menu { 
 	text-transform: lowercase;
-border-bottom: 1.5px solid #000}
-
-
-	li.menu {display: inline;
-	font-weight: bold;
-	font-family: arial, sans-serif;
-	font-color: black;
-	text-decoration: none;}
+	float: right;
+	list-style: none;
 }
+
+li.menu {
+	display: inline-block;
+	font-weight: 600;
+	font-family: arial, sans-serif;
+	font-size: 0.85em;
+	font-color: black;
+	text-decoration: none;
+	padding: 2px;
+	margin-right: 3px;
+}
+
+/* SIDEBAR */
+
+aside {
+  	margin-top: 70px;
+  	width: 175px;
+  	float: left;
+
+}
+
 ul.articles { 
-	text-transform: lowercase;
+	text-transform: none;	
 }
 
-
-	li.articles {display: block;
-	font-weight: bold;
+li.articles {
+	display: block;
+	font-weight: 600;
 	font-family: arial, sans-serif;
 	font-color: black;
-	text-decoration: none;}
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: -40px;
+	line-height: 15px;
+	font-size: 0.85em;
+}
+
+/* CONTENT */
+
+h2 {
+	font-family: LeagueGothicRegular, sans-serif;
+	font-size: 1.8em;
+	font-weight: normal;
+	margin-bottom: -7px;
+	margin-top: -15px;
+	margin-left: 65px;
+}
+
+h4 {
+	font-weight: 700;
+	font-family: arial, sans-serif;
+	font-size: 0.6em;
+	margin-top: 15px;
+	margin bottom: -50px;
+	margin-left: 65px;
+}
+
+p {
+	font-weight: normal;
+	font-family: arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 20px;
+	font-color: black;
+	text-decoration: none;
+	font-weight: 780;
+	line-height: 15px;
+	margin-left: 65px;
+}
+
+h3 {
+	font-weight: 600;
+	font-family: arial, sans-serif;
+	font-color: black;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	line-height: 15px;
+	font-size: 0.75em;
+	float: left;
+}
+
+div.content {
+	margin-top: 72px;
+}
+
+article {
+  	float: right;
+  	width: 600px;
+ }
+
+ footer {
+ 	border-top: 1.5px solid #000;
+ 	margin-top: 30px;
+ }
+
