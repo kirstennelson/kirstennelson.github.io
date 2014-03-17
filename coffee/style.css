@@ -478,8 +478,8 @@ th {
 /* RULES */
 
 header {
-	width: 975px;
-  	float:left;
+	  width: 975px;
+    float:left;
 }
 
 html {
@@ -489,20 +489,27 @@ html {
 
 div.container {
   	width: 975px;
+    background-color: white;
 }
 
 div.art1 {
-	float: right;
-	margin-right: 50px;
+	  float: right;
+	  margin-right: 50px;
     padding: 5px;
     width: 400px;
+    position:absolute;
+    left: 80px;
+    top: 310px;
 }
 
 div.art2 {
-	float: left;
-	margin-left: 50px;
+	  float: left;
+	  margin-left: 50px;
     padding: 5px;
     width: 400px;
+    position:absolute;
+    left: 450px;
+    top: 310px;
 }
 
 footer {
@@ -512,7 +519,9 @@ footer {
   	width: 975px;
   	float:left;
   	background-color: #240b02;
-	text-decoration: none;
+	  text-decoration: none;
+    position:absolute;
+    top: 620px;
 }
 
 /* HEADER */
@@ -537,40 +546,40 @@ header img {
 }
 
 ul.menu { 
-	text-transform: lowercase;
-	list-style-type: none; 
+	  text-transform: lowercase;
+	  list-style-type: none; 
   	text-align: center;
   	background-color: #240b02;
   	margin-top: -20px;
 }
 
 li.menu {
-	display: inline;
-	font-family: serif;
-	font-weight: 100;
-	font-size: 1em;
-	font-color: #CEBB99;
-	text-decoration: none;
-	margin-right: 20px;
+	  display: inline;
+	  font-family: serif;
+	  font-weight: 100;
+	  font-size: 1em;
+	  font-color: #CEBB99;
+	  text-decoration: none;
+	  margin-right: 20px;
 }
 
 /* ARTICLE */
 
 h2 {
-	font-weight: 700;
-	text-align: center;
-	font-family: arial, sans-serif;
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #240b02;
-	margin-bottom: 10px;
+	  font-weight: 700;
+	  text-align: center;
+	  font-family: arial, sans-serif;
+	  font-size: 18px;
+	  text-transform: uppercase;
+	  color: #240b02;
+	  margin-bottom: 10px;
 }
 
 p {
   	margin-bottom: 15px;
   	text-align: center;
   	font-family: times, serif;
- 	width: 320px;
+  	width: 320px;
   	font-size: 1em;
   	margin-left: auto;
   	margin-right: auto;
@@ -580,32 +589,32 @@ p {
 }
 
 h4 {
-	color: #d0bc97;
+	  color: #d0bc97;
   	font-weight: normal;
-	font-family: times, serif;
-	font-size: 1em;
-	text-align: center;
+	  font-family: times, serif;
+	  font-size: 1em;
+	  text-align: center;
 }
 
 /* A */
 a {
-	font-family: serif;
-	font-weight: 100;
-	text-decoration: none;
-	font-size: 1.25em;
-	font-color: #CEBB99;	
+	  font-family: serif;
+	  font-weight: 100;
+	  text-decoration: none;
+	  font-size: 1.25em;
+	  font-color: #CEBB99;	
 }
 
 
 a:link {
-	color: #CEBB99;
+	  color: #CEBB99;
 }
 a:visited {
-	color: #CEBB99;
+	  color: #CEBB99;
 } 
 a:hover {
-	color: #CEBB99;
+	  color: #CEBB99;
 } 
 a:active {
-	color: #CEBB99;
+	  color: #CEBB99;
 } 
